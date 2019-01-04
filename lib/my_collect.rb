@@ -4,7 +4,7 @@ def my_collect(array)
   i = 0
   newArray = array
   while i < newArray.length
-  yield array[i].upcase
+  yield array[i]
   i = i + 1
 end
   newArray
